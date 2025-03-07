@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Rosero</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header {
+            background-color: black;
+            color: white;
+            padding: 15px;
+        }
+        .content {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .article {
+            display: inline-block;
+            width: 45%;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin: 5px 0;
+            padding: 8px;
+        }
+        .table-container {
+            width: 80%;
+            margin: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>MyLogo</h2>
+        <p>Home | About | Contact</p>
+    </div>
+    <div class="content">
+        <div class="article">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5xOYqu-naXht77fdLrDROyDrEpJOF65Z0Kw&s" alt="Imagen">
+            <h3>Desarrollo web</h3>
+            <p>Pagina realizada con html y css!</p>
+        </div>
+        <div class="article">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBWOd0wrP40VcwVFNDjewkMIrrMRkFXd_-Tw&s" alt="Imagen">
+            <h3>Primer parcial</h3>
+            <p>Puntos a evaluar : HTML Y CSS</p>
+        </div>
+        <h2>Contact Form</h2>
+        <div class="contact-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Mensaje"></textarea>
+            <button>Submit</button>
+        </div>
+        <h2>Student Scores</h2>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>HTML</th>
+                    <th>CSS</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>80</td>
+                    <td>90</td>
+                    <td>170</td>
+                </tr>
+                <tr>
+                    <td>Karina</td>
+                    <td>85</td>
+                    <td>95</td>
+                    <td>180</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>350</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Contact us at: akrosero@estudiante.uniajc.edu.co</p>
+    </div>
+</body>
+</html>
